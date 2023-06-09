@@ -1,0 +1,29 @@
+main .container .our_works {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #tabs .our_works_slogan {
+    max-width: 393px;
+    position: absolute;
+}
+
+main #tabs .our_works_slogan h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+}
+#tabs-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ui-widget.ui-widget-content{
+    width: 100%;
+}
+.ui-tabs .ui-tabs-nav{
+    display: flex;
+    justify-content: flex-end;
+}
