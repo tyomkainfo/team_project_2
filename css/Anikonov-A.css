@@ -16,6 +16,7 @@
     padding: 40px 0;
     align-items: center;
 }
+
 .main_footer .ft_center a,
 .ft_right a, span  {
     text-decoration: none;
@@ -65,9 +66,26 @@
         padding: 40px 20px;
     }
 }
+@media only screen and (max-width: 600px) {
 
-@media only screen and(max-width: 600px ) {
-    .ft_right a {
-        margin-left: 12px;
+    .container{
+        flex-direction: column;
+
+    }
+    .container .ft_left a img{
+        margin-bottom: 20px;
+    }
+    .ft_center{
+        margin: 0 0 20px 0;
+    }
+    .ft_right a{
+        margin:0 12.5px 0;
+    }
+}
+@media only screen and (max-width: 299px){
+    .ft_center,.resp{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
