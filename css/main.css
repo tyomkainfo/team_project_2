@@ -1,3 +1,16 @@
+:root{
+    --mainBlackColour: #212529;
+    --mainWhiteColour: #F8F9FA;
+    --paragraphColour: #6C757D;
+    --articleColour: rgba(73, 80, 87, 0.5);
+    --accentArticleColour: #495057;
+    --bgGreyColor: rgba(94, 94, 94, 0.05);
+    --footerColor: rgba(248, 249, 250, 0.5);
+    --accentColour: #DDBEA9;
+    --btnBgColour: rgba(33, 37, 41, 0.3);
+}
+
+
 
 @font-face {
     font-family: 'poppinslight';
