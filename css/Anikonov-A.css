@@ -1,5 +1,13 @@
-.main_page {
-    background: #212529;
+.tech_page {
+    background: var(--mainBlackColour);
+}
+
+.main_footer {
+    background: var(--mainBlackColour);
+}
+
+.artpage {
+    background-color: var(--mainWhiteColour);
 }
 
 .container {
@@ -8,8 +16,8 @@
     padding: 40px 0;
     align-items: center;
 }
-
-.ft_right a, span {
+.main_footer .ft_center a,
+.ft_right a, span  {
     text-decoration: none;
     font-family: 'poppinsmedium', sans-serif;
     font-size: 12px;
@@ -25,12 +33,10 @@
     border-bottom: 1px solid var(--footerBbMain);
 }
 
-.artpage {
-    background-color: var(--mainWhiteColour);
-}
-.border_t{
+.border_t {
     border-top: 1px solid var(--footerBtArt);
 }
+
 .artpage .ft_center a {
     text-decoration: none;
     margin-right: 12.5px;
@@ -41,13 +47,18 @@
     color: var(--headerMenuOther);
 
 }
-.artpage .ft_right span{
+
+.artpage .ft_right span {
     font-family: 'poppinsmedium', sans-serif;
     font-size: 12px;
     line-height: 25px;
     color: var(--headerMenuOther);
 }
 
+.main_footer .ft_center a{
+    margin-left: 12.5px;
+    margin-right: 12.5px;
+}
 
 @media only screen and (max-width: 1250px) {
     footer .container {
