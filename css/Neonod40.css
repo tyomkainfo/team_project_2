@@ -16,21 +16,17 @@ main .container .our_works {
 #tabs .our_works_photo p:first-of-type {
     margin-bottom: 15px;
     text-align: center;
-    font-family: 'Poppins';
+    font: 12px/20px 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
-    line-height: 20px;
     color: #495057;
 }
 
 #tabs .our_works_photo p:last-of-type {
     margin-bottom: 40px;
-    font-family: 'Poppins';
+    font: 16px/25px 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
     color: #212529;
 }
 
@@ -40,59 +36,66 @@ main #tabs .our_works_slogan {
 }
 
 main #tabs .our_works_slogan h2 {
-    font-family: 'Poppins';
+    font: 25px/40px 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
     color: #212529;
+}
+
+.ui-widget {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
 }
 
 .ui-widget.ui-widget-content {
     width: 100%;
 }
+
 .ui-widget.ui-widget-content {
     border: none;
 }
+
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
     border-bottom-right-radius: 0;
 }
+
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
     color: #495057;
 }
+
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-     border: none;
-     background: transparent;
-     color: transparent;
+    border: none;
+    background: transparent;
+    color: transparent;
 }
+
 .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
     cursor: revert;
 }
+
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
     padding: 0;
     margin-left: 25px;
 }
+
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-     border: none;
-     background: transparent;
+    border: none;
+    background: transparent;
     font-weight: normal;
-    color: blue;
 }
 
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
     color: #C4C4C4;
     text-decoration: none;
 }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: black;
+}
+
 
 .ui-tabs .ui-tabs-nav li {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 0;
     margin: 0;
-    border-bottom-width: 0;
-    padding: 0;
-    white-space: nowrap;
 }
 
 .ui-widget-header {
@@ -103,11 +106,9 @@ main #tabs .our_works_slogan h2 {
 }
 
 .ui-widget {
-    font-family: 'Poppins';
+    font: 12px/25px 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 25px;
     color: #495057;
 }
 
