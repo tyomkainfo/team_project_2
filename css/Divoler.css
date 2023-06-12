@@ -1,0 +1,12 @@
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.made_by_date_time{
+    padding-right: 25px;
+    padding-bottom: 12px;
+}
+.made_by h3{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
