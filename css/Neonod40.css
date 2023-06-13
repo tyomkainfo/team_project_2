@@ -1,11 +1,12 @@
 main #tabs {
-    padding: 0;
     margin-top: 100px;
     margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 #tabs .our_works_photo {
     max-width: 393px;
+    width: 100%;
 }
 
 #tabs .our_works_photo img {
@@ -32,7 +33,7 @@ main #tabs {
 main #tabs .our_works_slogan {
     max-width: 393px;
     position: absolute;
-    top: 20px;
+    top: 25px;
 }
 
 main #tabs .our_works_slogan h2 {
@@ -88,6 +89,7 @@ main #tabs .our_works_slogan h2 {
     color: #C4C4C4;
     text-decoration: none;
 }
+
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
     color: black;
 }
@@ -123,6 +125,84 @@ main #tabs .our_works_slogan h2 {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 1151px) {
+@media only screen and (max-width: 1250px) {
+    main #tabs {
+        margin: 100px 15px 50px;
+    }
 
+    .ui-widget.ui-widget-content {
+        width: auto;
+    }
+
+    .ui-tabs .ui-tabs-panel {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 978px) {
+    main #tabs {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    main #tabs {
+        padding-top: 10px;
+    }
+
+    main #tabs .our_works_slogan {
+        top: 0px;
+        left: calc(50vw - 195px);
+        text-align: center;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        justify-content: center;
+    }
+
+    .ui-tabs .ui-tabs-panel {
+        display: block;
+    }
+
+    #tabs .our_works_photo {
+        margin: auto;
+    }
+
+    #tabs .our_works_photo p:last-of-type {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        padding: 0;
+        margin-left: 10px;
+    }
+
+    #tabs .our_works_photo img {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .ui-tabs .ui-tabs-nav {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #tabs .our_works_photo img {
+        width: inherit;
+    }
+
+    main #tabs .our_works_slogan {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 334px) {
+    main #tabs {
+        padding-top: 40px;
+    }
 }
