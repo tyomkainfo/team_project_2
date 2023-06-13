@@ -9,8 +9,10 @@
 }
 .ph_description{
     position: absolute;
+    right: 0;
     text-align: center;
     width: 100%;
+    max-width: 1340px;
     top: 344px;
 }
 .ph_description p{
@@ -103,5 +105,27 @@
     width: 100%;
     display: block;
 }
+.owl-carousel .owl-item img{
+    width: 1340px;
+    position: absolute;
+    right: 0;
+    bottom: -89px;
+
+}
+.owl-dots{
+    width: 600px;
+    display: inline-flex;
+    justify-content: center;
+
+}
+.owl-carousel .owl-stage-outer{
+    overflow: visible;
+}
+.photo_skills .owl-dots .owl-dot span:before{
+    content: "1";
+}
+
+
+
 
 
