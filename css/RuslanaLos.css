@@ -119,10 +119,8 @@
 
 }
 .owl-carousel .owl-stage-outer{
-    overflow: visible;
-}
-.photo_skills .owl-dots .owl-dot span:before{
-    content: "1";
+    overflow-y: visible;
+    overflow-x: clip;
 }
 
 
