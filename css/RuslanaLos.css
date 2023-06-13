@@ -1,36 +1,32 @@
-.ph_skills{
+.ph_skills_1{
     position: relative;
-}
-.container_ph_skills{
-    max-width: 1240px;
     min-height: 600px;
-    margin: auto;
 }
-.ph_skills_main{
-    max-width: 393px;
-    position: relative;
-    right: -524px;
+.ph_skills_1 img{
+    position: absolute;
+    right: 0;
+    bottom: -89px;
+}
+.ph_description{
+    position: absolute;
+    text-align: center;
+    width: 100%;
     top: 344px;
-    z-index: 1;
 }
-.ph_skills_main p{
+.ph_description p{
     font-family: 'poppinslight',sans-serif;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
     color: var(--mainWhiteColour);
+    margin-bottom: 15px;
 }
-.ph_skills_main h3{
+.ph_description h3{
     font-family: 'poppinsbold',sans-serif;
     font-size: 25px;
     line-height: 40px;
     text-align: center;
     color: var(--mainWhiteColour);
-}
-.art_skills_1{
-    position: absolute;
-    right: 0;
-    bottom: -89px;
 }
 .editors_picks{
     padding-top: 189px;
@@ -52,9 +48,13 @@
     display: flex;
     justify-content: space-between;
 }
-.picks article{
+.list_of_picks article{
     display: flex;
     margin-bottom: 40px;
+}
+.picks_of_photo img{
+    width: 100%;
+    display: block;
 }
 .pick{
     max-width: 287px;
@@ -95,9 +95,13 @@
 }
 .ph_skills_2 .description{
     position: absolute;
-    bottom: 35px;
+    top: 403px;
     left: 50px;
     max-width: 393px;
+}
+.ph_skills_2 .skills_2 img{
+    width: 100%;
+    display: block;
 }
 
 
