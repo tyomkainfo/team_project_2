@@ -1,7 +1,7 @@
-main .main_container {
+main #tabs {
     padding: 0;
     margin-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #tabs .our_works_photo {
@@ -121,4 +121,8 @@ main #tabs .our_works_slogan h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1151px) {
+
 }
