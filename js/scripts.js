@@ -1,4 +1,6 @@
-
+$(function () {
+    $("#tabs").tabs();
+});
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -22,8 +24,5 @@ $(document).ready(function(){
                 items:1
             }
         }
-    });
-    $(function () {
-        $("#tabs").tabs();
     });
 });
