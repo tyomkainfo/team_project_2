@@ -1,0 +1,88 @@
+.guides {
+    display: flex;
+    gap: 30px;
+}
+.big-world {
+    font: 25px/20px 'poppinsmedium';
+    color: #495057;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.teaser {
+    position: relative;
+    width: 287px;
+}
+.creative {
+    position: absolute;
+    left: 200px;
+    top: 28px;
+    background: rgba(33, 37, 41, 0.3);
+    border-radius: 3px;
+    padding: 3px 13px 2px;
+    font: 8px/20px 'poppinsbold';
+    text-align: center;
+    color: #F8F9FA;
+    text-decoration: none;
+}
+.teaser img {
+    margin-bottom: 30px;
+}
+.date{
+    font: 12px/20px 'poppinslight';
+    color: #495057;
+    margin-bottom: 15px;
+}
+.teaser h4{
+    font: 16px/25px 'poppinsmedium';
+    color: #212529;
+    margin-bottom: 15px;
+}
+.explain {
+    font: 12px/20px 'poppinslight';
+    color: #495057;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 1024px) {
+    .guides {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .big-world {
+        display: flex;
+        justify-content: center;
+    }
+    .teaser {
+        margin-left: 150px;
+    }
+    .explain {
+        margin-bottom: 60px;}
+}
+@media only screen and (max-width: 992px) {
+    .teaser {
+        margin-left: 120px;}
+    .teaser img {
+        margin-bottom: 5px;}
+    .teaser h4{
+        margin-bottom: 5px;}
+    .date{
+        margin-bottom: 5px;}
+}
+@media only screen and (max-width: 820px) {
+    .guides {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;}
+    .teaser {
+        margin-left: 50px;
+    }
+    .explain {
+        margin-bottom: 20px;}
+}
+@media only screen and (max-width: 428px) {
+    .teaser {
+        margin-left: 20px;}
+}
+@media only screen and (max-width: 320px) {
+    .teaser {
+        margin-left: 0px;}
+}

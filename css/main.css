@@ -1,4 +1,64 @@
+:root{
+    --mainBlackColour: #212529;
+    --mainWhiteColour: #F8F9FA;
+    --paragraphColour: #6C757D;
+    --headerMenuOther: rgba(73, 80, 87, 0.5);
+    --footerTextArt: rgba(73, 80, 87, 0.5);
+    --mainTextColour: #495057;
+    --bgGreyColor: rgba(94, 94, 94, 0.05);
+    --headerMenuMain: rgba(248, 249, 250, 0.5);
+    --footerTextMain: rgba(248, 249, 250, 0.5);
+    --btnBgColourMinimal: #DDBEA9;
+    --btnBgColourMainArticle: rgba(33, 37, 41, 0.3);
+    --footerBbMain:rgba(229, 229, 229, 0.2);
+    --footerBtArt:#E5E5E5;
+}
+
+
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.eot');
+    src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-light-webfont.woff') format('woff'),
+    url('../fonts/poppins-light-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.eot');
+    src: url('../fonts/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-medium-webfont.woff') format('woff'),
+    url('../fonts/poppins-medium-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.eot');
+    src: url('../fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-bold-webfont.woff') format('woff'),
+    url('../fonts/poppins-bold-webfont.ttf') format('truetype'),
+    url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
 }
