@@ -1,5 +1,5 @@
 .trend {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     margin: auto;
 }
 
@@ -20,13 +20,13 @@
 
 .trend_photo article:first-of-type {
     max-width: 817px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
 }
 
 .trend_photo article {
     max-width: 393px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
 }
 
