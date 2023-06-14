@@ -1,0 +1,328 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.technology_categories {
+   background-color: #F8F9FA;
+}
+
+.article_menu{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 44px;
+ }
+.technology_categories ul {
+    display: flex;
+}
+
+.technology_categories ul li  {
+    list-style-type:none;
+}
+.technology_categories ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+.article_menu_left li{
+  margin-right: 7px;
+}
+.technology_categories .container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+    max-width: 1270px;
+    margin: auto;
+}
+
+.technology_categories article {
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.technology_categories img {
+    margin-bottom: 30px;
+}
+.technology_categories article .categories_date{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    color: #495057;
+    /* Inside auto layout */
+}
+
+.technology_categories h3 {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 160% */
+    color: #212529;
+    /* Inside auto layout */
+}
+
+.technology_categories p {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    color: #495057;
+}
+
+.technology_categories .categories_author {
+    margin-bottom: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    color: #495057;
+}
+
+
+.btn_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.technology_categories a {
+    padding:10px 50px;
+    text-decoration: none;
+    background: #212529;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+    text-align: center;
+    color: #F8F9FA;
+}
+
+.latest_articles .article_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.latest_articles .figure {
+    margin-right: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 20px;
+    /* identical to box height, or 80% */
+    text-align: right;
+    color: #495057;
+}
+.latest_articles .init_article {
+    background-color: rgba(94, 94, 94, 0.05);
+    padding-left:106px;
+    max-width: 705px;
+}
+
+.latest_articles .init_article .latest_articles_date {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    color: #495057;
+    text-align: start;
+}
+.latest_articles .init_article  h3{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 160% */
+    color: #212529;
+}
+
+.latest_articles .init_article p {
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    color: #495057;
+}
+
+.latest_articles .init_article  .categories_author {
+    margin-bottom: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    color: #495057;
+}
+
+
+
+.latest_articles{
+   background-color: #F8F9FA;
+    padding-top: 75px;
+    padding-bottom: 101px;
+}
+
+.latest_articles h2 {
+    margin-bottom: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    /* identical to box height, or 80% */
+    color: #495057;
+}
+
+.latest_articles .menu {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.latest_articles .menu ul {
+    display: flex;
+}
+
+
+.latest_articles .menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.latest_articles .menu ul a{
+    text-decoration: none;
+    margin-right: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+    color: #C4C4C4;
+}
+
+.latest_articles .container {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.latest_articles article {
+    max-width: 287px;
+    margin-right: 28px;
+
+}
+
+.latest_articles article:nth-child(5) {
+    position: relative;
+    top:-80px;
+}
+
+.latest_articles article:nth-child(6) {
+    position: relative;
+    top:80px;
+}
+
+.latest_articles article:nth-child(7) {
+    position: relative;
+    top:0px;
+}
+
+.latest_articles article:nth-child(8) {
+    position: relative;
+    top:80px;
+}
+
+.latest_articles article img{
+    margin-bottom: 30px;
+}
+.latest_articles article .latest_articles_date {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: right;
+    color: #495057;
+}
+
+.latest_articles  h4 {
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    color: #212529;
+}
+
+.latest_articles article p{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+    color: #495057;
+}
+
+.page_list {
+    display: flex;
+    justify-content: center;
+}
+
+.page_list a {
+    margin-right: 15px;
+    text-decoration: none;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+    color: rgba(73, 80, 87, 0.5);
+}
+
+
+
