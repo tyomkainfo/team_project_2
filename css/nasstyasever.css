@@ -61,3 +61,14 @@
     order: 1;
     flex-grow: 0;
 }
+
+@media only screen and (max-width: 1235px) {
+    .trend_photo {
+        justify-content: center;
+    }
+    .trend_photo article {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
