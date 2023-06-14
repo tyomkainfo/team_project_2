@@ -1,8 +1,63 @@
+.trend {
+    padding-bottom: 70px;
+    margin: auto;
+}
+
 .trend h2 {
     font: 12px/25px 'poppinsmedium', sans-serif;
-
     font-weight: 700;
     font-size: 25px;
     line-height: 40px;
     color: #212529;
+    margin-bottom: 45px;
+}
+
+.trend_photo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.trend_photo article:first-of-type {
+    max-width: 817px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.trend_photo article {
+    max-width: 393px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.trend_descr {
+    max-width: 293px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.trend_descr p:first-of-type {
+    font: 12px/25px 'poppinsmedium', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color: #E5E5E5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.trend_descr p:last-of-type {
+    font: 12px/25px 'poppinsmedium', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: #F8F9FA;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }

@@ -1,0 +1,114 @@
+.featured_topics{
+    padding: 100px 0 100px 0;
+    background: #212529;
+    background-image: url("../images/featured_bg.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.featured_topics .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.featured_topics .left_side{
+    max-width: 636px;
+}
+
+.featured_topics h3{
+    font-family: 'poppinsmedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    color: #F8F9FA;
+    margin-bottom: 60px;
+}
+
+.featured_article{
+    display: flex;
+    max-width: 498px;
+    margin-bottom: 40px;
+}
+.featured_article a{
+    display: flex;
+    text-decoration: none;
+}
+.featured_article:last-of-type{
+    margin-bottom: 0;
+}
+.featured_article img{
+    margin-right: 30px;
+}
+
+.featured_article h4{
+    font-family: 'poppinsmedium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F8F9FA;
+    margin-bottom: 15px;
+}
+
+.featured_article p{
+    font-family: 'poppinslight',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin-bottom: 15px;
+}
+
+.featured_topics .right_side{
+    max-width: 393px;
+}
+
+.featured_topics .right_side h4{
+    font-family: 'poppinsbold',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #F8F9FA;
+    margin-bottom: 15px;
+}
+
+.featured_topics .right_side p{
+    font-family: 'poppinslight',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+.featured_topics .article_line{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#feature_line_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2em;
+    margin-bottom: 15px;
+}
+
+#feature_line_text::before {
+    content: "";
+    display: block;
+    width: 44px;
+    height: 0.5px;
+    background: white;
+    margin-right: 10px;
+}
