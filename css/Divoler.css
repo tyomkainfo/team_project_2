@@ -7,7 +7,6 @@
     font-family: 'poppinslight', sans-serif;
     font-size: 12px;
     line-height: 20px;
-    text-align: right;
     color: #6C757D;
     padding-right: 25px;
     padding-bottom: 12px;
@@ -45,7 +44,7 @@
 }
 .single_page_many .single_page_text h3{
     margin-bottom: 40px;
-    font-family: 'poppinsbold';
+    font-family: 'poppinsbold', sans-serif;
     font-size: 25px;
     line-height: 40px;
     color: #212529;
@@ -67,6 +66,7 @@
     text-align: center;
     color: #6C757D;
     padding: 2px 13px;
+    margin-right: 14px;
 }
 .single_page_right_links a{
     text-decoration: none;
@@ -84,23 +84,32 @@
     height: 10px;
     margin-right: 5px;
 }
-.latest_articles{
+.single_page_latest_articles{
     background: rgba(94, 94, 94, 0.05);
 }
 .latest_articles_conteiner{
     display: flex;
     justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
 }
 .latest_articles_content{
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+
 }
 .latest_articles_title{
     padding-top: 100px;
     padding-bottom: 60px;
     max-width: 1240px;
     margin: auto;
+}
+.latest_articles_title h3{
+    font-family: 'poppinsmedium', sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    color: #495057;
 }
 .latest_articles_text{
     margin-right: 30px;
