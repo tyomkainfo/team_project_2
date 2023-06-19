@@ -7,23 +7,28 @@
 
 
 .technology_categories {
-    background-color: #F8F9FA;
+    background-color: white;
+    padding-bottom: 15px;
+    padding-top:44px;
 }
 
-.article_menu{
-    display:flex;
+.article_menu {
+    display: flex;
     justify-content: space-between;
-    text-align: center;
-    margin-bottom: 44px;
+    max-width: 1250px;
+
 }
-.technology_categories ul {
+
+.technology_categories .article_menu_left {
     display: flex;
 }
 
-.technology_categories ul li  {
-    list-style-type:none;
+.technology_categories .article_menu_right {
+    display: flex;
 }
-.technology_categories ul li a {
+
+
+.technology_categories .ref_menu {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -33,17 +38,15 @@
     color: black;
     background-color: white;
     text-decoration: none;
+    padding: 0px;
+    margin-right: 14px;
 }
 
 
-.article_menu_left li{
-    margin-right: 7px;
-}
 .technology_categories .container {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 15px;
     max-width: 1270px;
     margin: auto;
 }
@@ -108,7 +111,7 @@
     justify-content: center;
 }
 .technology_categories a {
-    padding:10px 50px;
+    padding: 8px 50px;
     text-decoration: none;
     background: #212529;
     border-radius: 3px;
@@ -120,6 +123,7 @@
     /* identical to box height, or 208% */
     text-align: center;
     color: #F8F9FA;
+    margin-bottom: 100px;
 }
 
 .latest_articles .article_wrapper {
